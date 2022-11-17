@@ -14,6 +14,9 @@ Bash script for creating milestones for multiple Gitlab projects
 3. Specify project names (cass-sensitive) in script under line 55
 4. Run `./create_milestone.sh <gitlab_server_url> '<sprint_number>' '<start_date_yyyy_mm_dd>' '<due_date_yyyy_mm_dd>'` <br> e.g. `./create_milestone.sh 'https://gitlab.repository.com' '17' '2022-11-24' '2022-12-07'`
 
+For help, run with `-h` or `--help`
+e.g. `./create_milestone.sh -h`
+
 ## Credits
 
 Thanks to [@weikangchia](https://github.com/weikangchia/) for reference.
